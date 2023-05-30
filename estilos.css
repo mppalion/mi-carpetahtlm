@@ -1,0 +1,177 @@
+/* Estilos generales para todo el sitio */
+body {
+    display: grid;
+    font-family: arial, verdana, helvetica, sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+
+p {
+  display: flex;
+}
+  /* Estilos para la barra de navegación */
+  nav {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  .banner {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* Estilos para el carrusel */
+  .carrusel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+  }
+  
+  .carrusel img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+
+  
+  /* Estilos para la sección de productos destacados */
+  .features {
+    display: flex;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .features h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .features ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .features li {
+    flex-basis: 30%;
+  }
+  
+  .features img {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .features h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .features p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .features button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .features button:hover {
+    background-color: #666;
+  }
+
+  /* Estilos para la sección de boxes " Nos acercamos a Vos" servicios que ofrecemos */
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin: 0 ;
+    padding: 100px;
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  
+  .box {
+    
+    width: 370px;
+    height: 370px;
+    background-color: lightblue;
+    margin: 10px;
+    text-align: center;
+    
+  }
+  
+  .box p {
+    margin: 0;
+    padding: 10px;
+  }
+
+  .contact-us-map {
+    position: relative;
+    width: 100%;
+    background-image: url(../images/products_background.png);
+    background-repeat: repeat-x;
+    background-color: #5d5d5d;
+}
+
+  .contact-us-map-text {
+    color: #333;
+    text-align: center;
+    text-decoration: wavy;
+  }
+
+  .prefooter{
+    margin: 0;
+    padding: 10px;
+  }
+  
+  /* Estilos para el pie de página */
+  footer{
+    background-color:#262525;
+    padding: 10px;
+    text-align: right;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 25px;
+    color: #615f5f;
+    background-color: #262525;
+  }
